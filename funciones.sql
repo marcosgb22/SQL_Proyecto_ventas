@@ -1,5 +1,8 @@
 
 
+
+-- devuelve todos los productos q fueron comprados por un cliente 
+
 CREATE FUNCTION COMPRAS_USUARIO
 (@USUARIO AS VARCHAR (30))
   RETURN TABLE

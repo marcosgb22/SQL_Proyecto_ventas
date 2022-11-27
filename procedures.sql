@@ -1,5 +1,6 @@
 use VENTAS;
 
+
 select * from USUARIOS
 order by NOMBRES desc;
 drop procedure if exists BACKUP

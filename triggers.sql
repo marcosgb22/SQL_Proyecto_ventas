@@ -1,37 +1,36 @@
 
 -- se genera trigger en log compras
 
-CREATE TRIGGER TR_logcompras
+delimiter //
+CREATE TRIGGER TR_logcompras AFTER INSERT
 ON COMPRAS
-AFTER INSERT
-AS 
-BEGIN 
+FOR EACH ROW
     INSERT INTO INLOG (FECHA, USER, HORA)
     VALUES (select CURDATE(), select USER(), select NOW());
-END
+
+// delimiter ;
+
 
 -- se genera trigger en mov productos
 
-CREATE TRIGGER TR_logcompras
+delimiter //
+CREATE TRIGGER TR_logcompras BEFORE UPDATE
 ON PRODUCTOS
 BEFORE UPDATE
-AS 
-BEGIN 
+FOR EACH ROW
     INSERT INTO INMOV (FECHA, USER, HORA)
     VALUES (select CURDATE(), select USER(), select NOW());
-END
-
+// delimiter ;
 
 -- trgger avisa si se creo un nuevo dato
 
-CREATE TRIGGER TR_registronvo
+delimiter //
+CREATE TRIGGER TR_registronvo AFTER INSERT
 ON COMPRAS
-AFTER INSERT
-AS 
-BEGIN 
+FOR EACH ROW
     select * from inserted 
     PRINT ('se registro nueva compra')
-END
+// delimiter ;
 
 
 

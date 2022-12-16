@@ -27,8 +27,7 @@ en el archivo https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tabl
 se creo un archivo   https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql que genera una insersion de datos 
 
 ```
-En estas tablas se genera datos de los productos, posibles datos de los usuarios y algunos datos de compras para poder hacer funcionar las tablas,
-pero lo mas logico es que estas tablas puedan interactuar con un sistema para poder agregar y borrar datos  
-
-
+En estas tablas se genera datos de los productos, posibles datos de los usuarios y algunos 
+datos de compras para poder hacer funcionar las tablas, pero lo mas logico es que estas 
+tablas puedan interactuar con un sistema para poder agregar y borrar datos  
 ```

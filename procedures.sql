@@ -43,5 +43,5 @@ END //
 DELIMITER;
 
 SET @total = 0;
-CALL total_paises( @total );
+CALL total_productos( @total );
 SELECT @total;

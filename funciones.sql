@@ -1,19 +1,25 @@
 
+---- obtiene que compra se efectuaron en determinada fecha
 
+USE VENTAS;
 
--- devuelve todos los productos q fueron comprados por un cliente 
+CREATE FUNCTION `obtenerComprasPorFecha` (fecha DATE)
+RETURNS tabla TABLE (id INT, producto VARCHAR(40), total FLOAT);
+AS 
+BEGIN
+  DECLARE resultado TABLE (id INT, producto VARCHAR(40), total FLOAT);
 
-DELIMITER //
-CREATE FUNCTION COMPRAS_USUARIO
-(@USUARIO AS VARCHAR (30))
-  RETURNS TABLE
-AS
- RETURN(SELECT U.NOMBRE AS USUARIO , P.NOMBRE AS PRODUCTO FROM USUARIO U INNER JOIN PRODUCTOS P
-       WHERE U.NOMBRE = @USUARIO);
+  INSERT INTO resultado (id, producto, total)
+  SELECT c.ID_COMPRAS, p.NOMBRE, c.TOTAL
+  FROM COMPRAS c
+  INNER JOIN PRODUCTOS p ON c.ID_PRODUCTOS = p.ID_PRODUCTOS
+  WHERE c.FECHA = fecha;
 
-DELIMITER ;
+  RETURN resultado;
+END;
 
-SELECT * FROM COMPRAS_USUARIO('Orla Lester')
+SELECT * FROM obtenerComprasPorFecha('2022-12-16');
+
 
 
 -- calcula el total de compras

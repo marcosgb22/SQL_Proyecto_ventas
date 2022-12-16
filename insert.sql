@@ -47,26 +47,26 @@ VALUES
  
  INSERT INTO PRODUCTOS (NOMBRE,CLAVE,CODIGO,PRECIO,ID_PROVEDORES,ID_CATEGORIAS)
 VALUES
-  ("nulla.","dis",533,1457,19,3),
-  ("tempus","lobortis",740,1381,19,3),
-  ("magna.","metus.",684,2664,19,2),
-  ("tempor","ligula.",830,1161,10,2),
-  ("dui.","nunc",479,1444,10,4),
-  ("nisl.","justo",847,2087,13,1),
-  ("Suspendisse","eleifend",569,2998,18,4),
-  ("augue","Cras",542,2259,7,3),
-  ("pede,","nisl",710,1130,12,3),
-  ("eget","Mauris",606,2422,10,3),
-  ("pretium","Suspendisse",890,2917,8,4),
-  ("mi","dui.",779,1159,16,4),
-  ("sagittis.","magna.",853,1200,1,3),
-  ("Phasellus","egestas",844,1030,10,2),
-  ("interdum","ipsum",685,1217,16,1),
-  ("arcu","turpis",871,2637,10,4),
-  ("Mauris","ut",690,1259,3,3),
-  ("non","rutrum",653,2924,20,3),
-  ("magna","enim",726,1943,6,1),
-  ("Praesent","nec,",781,1257,15,3);
+  ("Ácido cítrico","Acci",533,1457,19,3),
+  ("Ácido ascórbico","Acas",740,1381,19,3),
+  ("Benzoato de sodio","BezNa",684,2664,19,2),
+  ("Propionato de calcio","PropCA.",830,1161,10,2),
+  ("Sorbato de potasio","Srona",479,1444,10,4),
+  ("Metabissulfito de sodio","Sna",847,2087,13,1),
+  ("Suspendisse","Sus",569,2998,18,4),
+  ("butil-hidroxianisol","BHA",542,2259,7,3),
+  ("butil-hidroxitolueno","BHT",710,1130,12,3),
+  ("Propilenglicol","Prop",606,2422,10,3),
+  ("Polisorbato 80","P80",890,2917,8,4),
+  ("ácido etilendiaminotetraacético","EDTA",779,1159,16,4),
+  ("Carrageenana","Car.",853,1200,1,3),
+  ("Goma xantana","Gxa",844,1030,10,2),
+  ("Goma guar","Ggu",685,1217,16,1),
+  ("Glutamato monosódico","glmo",871,2637,10,4),
+  ("Aspartamo","as",690,1259,3,3),
+  ("Cloruro de sodio","clna",653,2924,20,3),
+  ("Cloruro de calcio","clca",726,1943,6,1),
+  ("Sulfitos","sul,",781,1257,15,3);
  
  
  INSERT INTO `CATEGORIAS` (`ID_CATEGORIAS`,`NOMBRE`,`CLAVE`)

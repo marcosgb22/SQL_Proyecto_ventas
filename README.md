@@ -17,3 +17,13 @@ con tablas --
 -usuarios
 
 las tablas tratan de dejar rastro de las transacciones de la empresa y obtener la informacion de los productos
+
+# Título h1
+## Título h2
+### Título h3
+
+* Elemento de lista
+- Elemento de lista
++ Elemento de lista
+
+> Esta es una cita

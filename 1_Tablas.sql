@@ -55,7 +55,7 @@ CREATE TABLE COMPRAS(
 );
 
 
--- TAblas de control
+-- TAblas de control log de movimientos
 
 
 DROP TABLE IF EXISTS `INLOG`;

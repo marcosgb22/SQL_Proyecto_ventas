@@ -27,3 +27,11 @@ las tablas tratan de dejar rastro de las transacciones de la empresa y obtener l
 + Elemento de lista
 
 > Esta es una cita
+
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```

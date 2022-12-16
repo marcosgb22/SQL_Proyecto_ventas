@@ -1,12 +1,5 @@
 --sql
 
--- crea vistas de los compras del ultimo año
-
- CREATE VIEW MOVIMIENTOS_ANIO_ACTUAL
- AS SELECT FECHA, TOTAL
- FROM COMPRAS
- WHERE FECHA > 01012022;
-
 -- crea vista de provedores y su telefono
 
  CREATE VIEW PROVEDORES_TELEFONO

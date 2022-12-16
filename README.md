@@ -1,37 +1,34 @@
-# SQL_VENTAS_2
-Segunda entrega del proyecto final
-
-EL proyecto trata de emular una base de datos de un empresa de ventas.
-en este caso de un laboratorio
-
-con tablas --
-
--categorias
-
--compras
-
--productos
-
--provedores
-
--usuarios
-
-las tablas tratan de dejar rastro de las transacciones de la empresa y obtener la informacion de los productos
-
-# Título h1
-## Título h2
-### Título h3
-
-* Elemento de lista
-- Elemento de lista
-+ Elemento de lista
-
-> Esta es una cita
 
 
-Some basic Git commands are:
-```
-git status
-git add
-git commit
+## PROYECTO SQL DE VENTAS
+### INTRODUCCIÓN
+
+El proyecto trata de emular una base de datos de un empresa de ventas. En este caso de una empresa que vende conservantes de  alimentos .
+para eso se crea las tablas previstas a continuacion.  
+
+
++ PRODUCTOS
++ CATEGORIAS
++ PROVEDORES
++ COMPRAS
++ USUARIOS
+
++ INLOG 
++ INMOV
+
+Estas tablas contemplan toda la logica para poder procesar compras de productos y poder asociar las compras a los provedores y usuarios.
+
+en el archivo https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tablas.sql se encuentra el cogigo para crear las tablas
+
+
+
+### 2 - Inserscion de datos en las tablas
+
+se creo un archivo   https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql que genera una insersion de datos 
+
+```mermaid
+En estas tablas se genera datos de los productos, posibles datos de los usuarios y algunos datos de compras para poder hacer funcionar las tablas,
+pero lo mas logico es que estas tablas puedan interactuar con un sistema para poder agregar y borrar datos  
+
+
 ```

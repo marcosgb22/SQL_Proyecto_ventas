@@ -17,9 +17,9 @@ para eso se crean las tablas previstas a continuación.
 
 Estas tablas contemplan toda la lógica para poder procesar compras de productos y poder asociar las compras a los proveedores y usuarios.
 
-en el archivo [Tablas_1](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tablas.sql "Tablas")  se encuentra el codigo para **crear las tablas**
+En el archivo [Tablas_1](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tablas.sql "Tablas")  se encuentra el codigo para **crear las tablas**
 
-POr medio del siguiente enlace se puede ver la descripcion de cada una de las tablas [Enlace](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/archivos/descripcion_de_tablas.pdf "Descripcion").
+Por medio del siguiente enlace se puede ver la descripcion de cada una de las tablas [Enlace](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/archivos/descripcion_de_tablas.pdf "Descripcion").
 
 
 A continuación se muestra un diagrama ER de las tablas [Diagrama ER](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/archivos/2022-12-16%20202021.png "Tablas").

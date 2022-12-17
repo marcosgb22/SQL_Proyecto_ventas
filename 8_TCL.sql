@@ -8,8 +8,8 @@ FROM PRODUCTO;
 
 -- 2. Ejecutamos una transacción que incluye un SAVEPOINT
 START TRANSACTION;
-INSERT INTO PRODUCTO  (id, nombre) VALUES (4, 'Cuarto');
+INSERT INTO PRODUCTO  (ID, NOMBRE) VALUES (4, 'Cuarto');
 SAVEPOINT sp1;
-INSERT INTO PRODUCTO  (id, nombre) VALUES (5, 'Cinco');
-INSERT INTO PRODUCTO  (id, nombre) VALUES (6, 'Seis');
+INSERT INTO PRODUCTO  (ID, NOMBRE) VALUES (5, 'Cinco');
+INSERT INTO PRODUCTO  (ID, NOMBRE) VALUES (6, 'Seis');
 ROLLBACK TO sp1;

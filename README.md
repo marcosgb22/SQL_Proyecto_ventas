@@ -1,4 +1,4 @@
-## PROYECTO SQL DE VENTAS
+## PROYECTO MySQL VENTAS DE PRODUCTOS
 ### INTRODUCCIÓN
 
 El proyecto trata de emular una base de datos de un empresa de ventas. En este caso de una empresa que vende conservantes de alimentos .
@@ -25,7 +25,7 @@ A continuación se muestra un diagrama ER de las tablas [Diagrama ER](https://gi
 
 ### 2 - Inserscion de datos en las tablas
 
-se creo un archivo [Inserscion_de_datos.sql]( https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql ) que genera una **insercion de datos** 
+Se creo un archivo [Inserscion_de_datos.sql]( https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql ) que genera una **insercion de datos** 
 
 ```
 En estas tablas se genera datos de los productos, posibles datos de los usuarios y algunos datos de compras para poder hacer funcionar las tablas,
@@ -34,7 +34,7 @@ pero lo mas logico es que estas tablas puedan interactuar con un sistema para po
 
 ### 3 - Creacion de vistas
 
-las vistas ayudan a tener tablas unidas para procesar los datos, en este proyecto se han creado las siguientes vistas.
+Las vistas ayudan a tener tablas unidas para procesar los datos, en este proyecto se han creado las siguientes vistas.
 
 
 + PROVEDORES_TELEFONO
@@ -45,12 +45,12 @@ las vistas ayudan a tener tablas unidas para procesar los datos, en este proyect
 
 >Se crearon estas vistas para poder interactuar con los datos de una manera directa
 
-se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/3_Vistas.sql)  que genera las **vistas** solicitadas  
+Se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/3_Vistas.sql)  que genera las **vistas** solicitadas  
  
 
 ### 4 - Creacion de funciones
 
-las funciones ayudan a procesar los datos a traves de entrada de variables, en este proyecto se han creado las siguientes funciones.
+Las funciones ayudan a procesar los datos a traves de entrada de variables, en este proyecto se han creado las siguientes funciones.
 
 
 + obtenerComprasPorFecha
@@ -61,10 +61,10 @@ las funciones ayudan a procesar los datos a traves de entrada de variables, en e
 >obtenerComprasPorFecha obtiene que compras se dieron en una fecha determinada y 
 >FN_TOTAL obtiene cual fue el total de compras realizadas
 
-se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/4_Funciones.sql)  que tiene acceso a las funciones creadas
+Se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/4_Funciones.sql)  que tiene acceso a las funciones creadas
 
 
-### 4 - Creacion de store procedures
+### 5 - Creacion de store procedures
 
 Son un conjunto de sentencias almacenadas en un base de datos se utiliza para operar y procesar datos del lado del servidor
 
@@ -74,9 +74,9 @@ Son un conjunto de sentencias almacenadas en un base de datos se utiliza para op
 + total_producto
 
 
-se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/5_Procedimientos.sql)  que tiene acceso a las procedimientos creados
+Se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/5_Procedimientos.sql)  que tiene acceso a las procedimientos creados
 
-### 5 - Creacion de Triggers
+### 6 - Creacion de Triggers
 
 Son un conjunto de sentencias progrmadas para dispararse automaticamente cuando ocurre una instruccion a la BD
 
@@ -92,9 +92,9 @@ Son un conjunto de sentencias progrmadas para dispararse automaticamente cuando 
 > TR_registronvo cuando se genera una compra genera la frase se 'registro nueva compra'
 
 
-se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/6_Triggers.sql)  que tiene acceso a los triggers creados
+Se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/6_Triggers.sql)  que tiene acceso a los triggers creados
 
-### 6 - Creacion de Control de Datos
+### 7 - Creacion de Control de Datos
 
 El Lenguaje de Control de Datos permite definir diferentes usuarios dentro del motor de base de datos Mysql,
 cada uno con sus privilegios y limitaciones segun se programe.
@@ -105,10 +105,10 @@ cada uno con sus privilegios y limitaciones segun se programe.
 > Ninguno de ellos pueden eliminar registros de las tablas
 
 
-se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/7_DCL.sql)  que tiene acceso a lenguade DCL
+Se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/7_DCL.sql)  que tiene acceso a lenguade DCL
 
 
-### 6 - Creacion de TCL
+### 8 - Creacion de TCL
 
 Se conoce como Transaction Control Language al grupo de sentencias del sub-lenguaje de Control de Transacciones que se
 utilizan para administrar transacciones en la DB.
@@ -116,12 +116,12 @@ utilizan para administrar transacciones en la DB.
 >Se eligieron dos tablas de las presentadas en tu proyecto. Se hicieron una serie de modificaciones en los
 >registros, controladas por transacciones.
 
-se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/8_TCL.sql)  que tiene acceso a lenguade TCL
+Se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/8_TCL.sql)  que tiene acceso a lenguade TCL
 
-### 7 - Creacion de Backups
+### - Creacion de Backups
 
 
 A traves del software MySQL Workbench hizo un respaldo de las tablas creadas
 
 
-se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/tree/main/respaldo)  que tiene acceso a los respaldos.
+Se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/tree/main/respaldo)  que tiene acceso a los respaldos.

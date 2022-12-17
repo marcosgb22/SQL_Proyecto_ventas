@@ -1,7 +1,7 @@
 ## PROYECTO MySQL VENTAS DE PRODUCTOS
 ### INTRODUCCIÓN
 
-El proyecto trata de emular una base de datos de un empresa de ventas. En este caso de una empresa que vende conservantes de alimentos .
+El proyecto trata de emular una base de datos de una empresa de ventas. En este caso de una empresa que vende conservantes de alimentos .
 para eso se crea las tablas previstas a continuacion.  
 
 
@@ -17,15 +17,15 @@ para eso se crea las tablas previstas a continuacion.
 
 Estas tablas contemplan toda la logica para poder procesar compras de productos y poder asociar las compras a los provedores y usuarios.
 
-en el archivo [Tablas_1](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tablas.sql "Tablas")  se encuentra el cogigo para **crear las tablas**
+en el archivo [Tablas_1](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/1_Tablas.sql "Tablas")  se encuentra el codigo para **crear las tablas**
 
 A continuación se muestra un diagrama ER de las tablas [Diagrama ER](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/archivos/2022-12-16%20202021.png "Tablas").
 
 
 
-### 2 - Inserscion de datos en las tablas
+### 2 - Insercion de datos en las tablas
 
-Se creo un archivo [Inserscion_de_datos.sql]( https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql ) que genera una **insercion de datos** 
+Se creó un archivo [Inserscion_de_datos.sql]( https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/2_Inserciones_de_datos.sql ) que genera una **insercion de datos** 
 
 ```
 En estas tablas se genera datos de los productos, posibles datos de los usuarios y algunos datos de compras para poder hacer funcionar las tablas,
@@ -66,7 +66,7 @@ Se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob
 
 ### 5 - Creacion de store procedures
 
-Son un conjunto de sentencias almacenadas en un base de datos se utiliza para operar y procesar datos del lado del servidor
+Son un conjunto de sentencias almacenadas en una base de datos, se utiliza para operar y procesar datos del lado del servidor
 
 
 + BACKUP
@@ -78,7 +78,7 @@ Se creo un archivo [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob
 
 ### 6 - Creacion de Triggers
 
-Son un conjunto de sentencias progrmadas para dispararse automaticamente cuando ocurre una instruccion a la BD
+Son un conjunto de sentencias programadas para dispararse automaticamente cuando ocurre una instruccion a la BD
 
 
 + TR_logcompras

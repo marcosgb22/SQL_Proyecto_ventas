@@ -1,4 +1,3 @@
-
 ## PROYECTO SQL DE VENTAS
 ### INTRODUCCIÓN
 
@@ -94,3 +93,35 @@ Son un conjunto de sentencias progrmadas para dispararse automaticamente cuando 
 
 
 se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/6_Triggers.sql)  que tiene acceso a los triggers creados
+
+### 6 - Creacion de Control de Datos
+
+El Lenguaje de Control de Datos permite definir diferentes usuarios dentro del motor de base de datos Mysql,
+cada uno con sus privilegios y limitaciones segun se programe.
+
+> Se crearon dos usuarios un operador y un editor para obterner diferentes privilegios
+> Uno de los usuarios creados el **operador** deberá tener permisos de sólo lectura sobre todas las tablas.
+> El otro usuario el **editor** deberá tener permisos de Lectura, Inserción y Modificación de datos.
+> Ninguno de ellos pueden eliminar registros de las tablas
+
+
+se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/7_DCL.sql)  que tiene acceso a lenguade DCL
+
+
+### 6 - Creacion de TCL
+
+Se conoce como Transaction Control Language al grupo de sentencias del sub-lenguaje de Control de Transacciones que se
+utilizan para administrar transacciones en la DB.
+
+>Se eligieron dos tablas de las presentadas en tu proyecto. Se hicieron una serie de modificaciones en los
+>registros, controladas por transacciones.
+
+se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/blob/main/8_TCL.sql)  que tiene acceso a lenguade TCL
+
+### 7 - Creacion de Backups
+
+
+A traves del software MySQL Workbench hizo un respaldo de las tablas creadas
+
+
+se creo un enlace [Link](https://github.com/marcosgb22/SQL_Proyecto_ventas/tree/main/respaldo)  que tiene acceso a los respaldos.
